@@ -26,6 +26,7 @@ if not os.path.exists(dir):
 # 2]  데이터 파일 생성
 
 fname = "{:%Y-%m-%d-%H-%M.txt}".format(datetime.now())
+
 # 1시간마다 정보 갱신되어 1시간마다 저장하기.
 file = open(dir + '/' + fname, mode='w', encoding='utf-8')
 
